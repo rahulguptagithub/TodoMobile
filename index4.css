@@ -1,0 +1,191 @@
+.task1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 29%;
+  border: 2px solid tomato;
+  border-radius: 10px;
+  box-shadow: 12px 12px 18px gray;
+  /* padding: 0px 0px 20px 0px; */
+  text-align: center;
+  font-size: 24px;
+}
+.material-icons {
+  color: tomato;
+  font-size: 36px;
+}
+.circle {
+  float: right;
+  padding: 0px 15px 20px 0px;
+}
+.backflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 7%;
+  padding: 0px 0px 20px 0px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width: 50%; */
+  align-items: center;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+hr {
+  width: 70%;
+  margin-right: 0px;
+}
+.title {
+  font-size: 56px;
+  margin: 30px 0px 0px 0px;
+  width: 100%;
+}
+.back {
+  font-size: 32px;
+  font-weight: lighter;
+}
+.task1_title {
+  font-size: 26px;
+  font-weight: lighter;
+}
+.hr1 {
+  position: absolute;
+  top: 110px;
+  left: 380px;
+  width: 180px;
+  border: 1px solid black;
+}
+.hr2 {
+  position: absolute;
+  top: 110px;
+  right: 380px;
+  width: 180px;
+  border: 1px solid black;
+}
+body {
+  margin-top: 50px;
+}
+.addNewList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid tomato;
+  border-radius: 10px;
+  text-align: center;
+  width: 30vw;
+  height: 35vh;
+  z-index: 1;
+  position: absolute;
+  top: 40vh;
+  left: 35vw;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 26px 0px 0px 0px;
+  color: tomato;
+  font-weight: lighter;
+}
+.inputText {
+  width: 60%;
+  height: 15%;
+  box-shadow: 1px 1px 4px gray;
+  border: 1px solid tomato;
+  border-radius: 5px;
+  padding: 0px 0px 10px 0px;
+}
+.btn {
+  color: white;
+  background-color: tomato;
+  width: 150%;
+  height: 120%;
+  border-radius: 50px;
+  font-size: 24px;
+  margin: 10px 0px 0px 0px;
+  position: relative;
+  right: 20px;
+}
+.overview,
+.task1,
+.backflex {
+  filter: blur(5px);
+}
+@media all and (max-width: 480px) {
+  .hr1,
+  .hr2,
+  .back {
+    display: none;
+  }
+  .task1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    height: 50vh;
+    position: relative;
+    top: 50px;
+  }
+  .task1_title,
+  hr {
+    position: relative;
+    top: 60px;
+  }
+  .task_body {
+    position: relative;
+    top: 60px;
+  }
+  .circle {
+    position: relative;
+    bottom: 120px;
+  }
+  .title {
+    font-size: 46px;
+    margin: 30px 0px 0px 60px;
+    width: 100%;
+  }
+  .arrow_left {
+    font-size: 46px;
+    position: absolute;
+    top: 88px;
+    left: 25px;
+  }
+  .addNewList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    text-align: center;
+    width: 70vw;
+    height: 35vh;
+    z-index: 1;
+    position: absolute;
+    top: 40vh;
+    left: 50px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 26px 0px 20px 0px;
+    color: tomato;
+    font-weight: lighter;
+  }
+  .inputText {
+    width: 60%;
+    height: 15%;
+    box-shadow: 1px 1px 4px gray;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    padding: 0px 0px 10px 0px;
+  }
+  .btn {
+    color: white;
+    background-color: tomato;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    font-size: 24px;
+    margin: 10px 0px 0px 0px;
+    position: relative;
+    right: 0px;
+  }
+}
